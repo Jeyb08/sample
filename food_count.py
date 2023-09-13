@@ -7,5 +7,7 @@ with open("favorite_foods.log" ,'r') as f:
 # sort list with key
 sort_freqs = sorted(dic.items(), key=lambda x: x[1], reverse=True)
 
+print("added something")
+
 # print the food frequency
 print ('\n'.join(['%s,%s' % (k, v) for k, v in sort_freqs]))
