@@ -1,4 +1,4 @@
-#dic = {}
+dic = {}
 with open("favorite_foods.log" ,'r') as f:
     for l in f:
         for w in l.split():
